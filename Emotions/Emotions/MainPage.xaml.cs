@@ -117,7 +117,7 @@ namespace Emotions
 
                     double maxEmotion = emotion_list.Max();     //getting max emotion
 
-                    string your_emotion = " ";                        //final result to print
+                    string your_emotion = " ";                        //final result to print.
 
                   
 
@@ -183,7 +183,7 @@ namespace Emotions
 
                  
 
-                    //Get rid of file once we have finished using it
+                    //Get rid of file once we have finished using it.
                     file.Dispose();
                 }
                 else
