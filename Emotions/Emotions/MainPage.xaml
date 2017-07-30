@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Emotions"
+             x:Class="Emotions.MainPage">
+
+    <StackLayout Margin="20" Orientation="Vertical">
+        <Button Text="Check Your Emotion!" Clicked="loadCamera" />
+  
+        <Image x:Name="image" />
+
+        <Label x:Name="TagLabel" Text=" " 
+               HorizontalOptions="Center"
+               FontSize="Large"/>
+
+        <Label x:Name="EmotionLabel" Text=" " 
+               HorizontalOptions="Center"
+               FontSize="Large" />
+
+        <!--<Button x:Name ="buttonLabel"  Text="Number of Emotions" Clicked="countEmotions"/>-->
+
+        <!--<Label x:Name="TagLabel" Text=" "></Label>-->
+        
+    </StackLayout>
+
+</ContentPage>
