@@ -119,7 +119,7 @@ namespace Emotions
 
                     string your_emotion = " ";                        //final result to print
 
-                    //xLabel.Text = maxEmotion + "hello";
+                  
 
                     if (maxEmotion == anger)
                     {
